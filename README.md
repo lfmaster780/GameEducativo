@@ -5,4 +5,4 @@ Projeto de desenvolvimento de jogos educativos para o ensino da matemática no e
 
 ## Integrantes da Equipe
 - [Luís Filipe Santos Seixas] Graduando em Ciência da Computação na UFRPE-UAG (https://github.com/lfmaster780)
-- [Larissa Gabrielle Oliveira Cavalcante] Graduanda em Licenciatura em Pedagogia na UFRPE-UAG
+- [Larissa Gabrielle de Oliveira Cavalcante] Graduanda em Licenciatura em Pedagogia na UFRPE-UAG
