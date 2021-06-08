@@ -1,0 +1,141 @@
+[gd_scene load_steps=6 format=2]
+
+[ext_resource path="res://scenes/dragObject.tscn" type="PackedScene" id=1]
+[ext_resource path="res://scenes/DropZone.tscn" type="PackedScene" id=2]
+[ext_resource path="res://scenes/DragPeca.tscn" type="PackedScene" id=3]
+[ext_resource path="res://scripts/Puzzle3.gd" type="Script" id=4]
+[ext_resource path="res://scenes/DragPecaL.tscn" type="PackedScene" id=5]
+
+[node name="Peca3" type="Node2D"]
+script = ExtResource( 4 )
+
+[node name="DropZone" parent="." instance=ExtResource( 2 )]
+position = Vector2( 178.609, 142.498 )
+
+[node name="DropZone2" parent="." instance=ExtResource( 2 )]
+position = Vector2( 241.609, 142.498 )
+
+[node name="DropZone3" parent="." instance=ExtResource( 2 )]
+position = Vector2( 304.609, 142.498 )
+
+[node name="DropZone4" parent="." instance=ExtResource( 2 )]
+position = Vector2( 368.673, 142.447 )
+
+[node name="DropZone5" parent="." instance=ExtResource( 2 )]
+position = Vector2( 431.673, 142.447 )
+
+[node name="DropZone6" parent="." instance=ExtResource( 2 )]
+position = Vector2( 494.673, 142.447 )
+
+[node name="DropZone7" parent="." instance=ExtResource( 2 )]
+position = Vector2( 178.487, 204.447 )
+
+[node name="DropZone8" parent="." instance=ExtResource( 2 )]
+position = Vector2( 241.487, 204.447 )
+
+[node name="DropZone9" parent="." instance=ExtResource( 2 )]
+position = Vector2( 304.487, 204.447 )
+
+[node name="DropZone10" parent="." instance=ExtResource( 2 )]
+position = Vector2( 368.183, 205.57 )
+
+[node name="DropZone11" parent="." instance=ExtResource( 2 )]
+position = Vector2( 431.183, 205.57 )
+
+[node name="DropZone12" parent="." instance=ExtResource( 2 )]
+position = Vector2( 494.183, 205.57 )
+
+[node name="DropZone13" parent="." instance=ExtResource( 2 )]
+position = Vector2( 178.364, 267.214 )
+
+[node name="DropZone14" parent="." instance=ExtResource( 2 )]
+position = Vector2( 241.364, 267.214 )
+
+[node name="DropZone15" parent="." instance=ExtResource( 2 )]
+position = Vector2( 304.364, 267.214 )
+
+[node name="DropZone16" parent="." instance=ExtResource( 2 )]
+position = Vector2( 367.428, 268.163 )
+
+[node name="DropZone17" parent="." instance=ExtResource( 2 )]
+position = Vector2( 430.428, 268.163 )
+
+[node name="DropZone18" parent="." instance=ExtResource( 2 )]
+position = Vector2( 493.428, 268.163 )
+
+[node name="DropZone19" parent="." instance=ExtResource( 2 )]
+position = Vector2( 178.242, 329.163 )
+
+[node name="DropZone20" parent="." instance=ExtResource( 2 )]
+position = Vector2( 241.242, 329.163 )
+
+[node name="DropZone21" parent="." instance=ExtResource( 2 )]
+position = Vector2( 304.242, 329.163 )
+
+[node name="DropZone22" parent="." instance=ExtResource( 2 )]
+position = Vector2( 367.938, 330.286 )
+
+[node name="DropZone23" parent="." instance=ExtResource( 2 )]
+position = Vector2( 430.938, 330.286 )
+
+[node name="DropZone24" parent="." instance=ExtResource( 2 )]
+position = Vector2( 493.938, 330.286 )
+
+[node name="DropZone25" parent="." instance=ExtResource( 2 )]
+position = Vector2( 178.364, 391.214 )
+
+[node name="DropZone26" parent="." instance=ExtResource( 2 )]
+position = Vector2( 241.364, 391.214 )
+
+[node name="DropZone27" parent="." instance=ExtResource( 2 )]
+position = Vector2( 304.364, 391.214 )
+
+[node name="DropZone28" parent="." instance=ExtResource( 2 )]
+position = Vector2( 367.428, 392.163 )
+
+[node name="DropZone29" parent="." instance=ExtResource( 2 )]
+position = Vector2( 430.428, 392.163 )
+
+[node name="DropZone30" parent="." instance=ExtResource( 2 )]
+position = Vector2( 493.428, 392.163 )
+
+[node name="DropZone31" parent="." instance=ExtResource( 2 )]
+position = Vector2( 178.242, 453.163 )
+
+[node name="DropZone32" parent="." instance=ExtResource( 2 )]
+position = Vector2( 241.242, 453.163 )
+
+[node name="DropZone33" parent="." instance=ExtResource( 2 )]
+position = Vector2( 304.242, 453.163 )
+
+[node name="DropZone34" parent="." instance=ExtResource( 2 )]
+position = Vector2( 367.938, 453.286 )
+
+[node name="DropZone35" parent="." instance=ExtResource( 2 )]
+position = Vector2( 430.938, 453.286 )
+
+[node name="DropZone36" parent="." instance=ExtResource( 2 )]
+position = Vector2( 493.938, 453.286 )
+
+[node name="DragObject" parent="." instance=ExtResource( 1 )]
+position = Vector2( 62.7375, 110.792 )
+
+[node name="DragPeca" parent="." instance=ExtResource( 3 )]
+position = Vector2( 930.031, 92.4986 )
+
+[node name="Position2D" type="Position2D" parent="DragPeca" groups=[
+"initZone",
+]]
+position = Vector2( -3.26471, 2.78644 )
+
+[node name="Area2D" type="Area2D" parent="." groups=[
+"exit",
+]]
+
+[node name="CollisionShape2D" type="CollisionPolygon2D" parent="Area2D"]
+position = Vector2( 380.289, 204.339 )
+scale = Vector2( 0.99308, 0.948187 )
+polygon = PoolVector2Array( -380.232, -213.816, -371.359, 403.546, 643.868, 414.434, 639.078, -217.679, 317.427, -212.366, 293.117, -214.476, 241.667, -146.088, 420.093, -139.817, 429.673, 336.775, -294.811, 333.013, -287.626, -154.867, 238.074, -147.342, 293.744, -216.585 )
+
+[node name="DragPecaL" parent="." instance=ExtResource( 5 )]
+position = Vector2( 892.191, 318.005 )

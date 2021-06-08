@@ -19,8 +19,8 @@ font_data = ExtResource( 1 )
 script = ExtResource( 4 )
 
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 618.044, 288.306 )
-scale = Vector2( 1.16, 1.15241 )
+position = Vector2( 583.026, 285.617 )
+scale = Vector2( 0.410007, 0.391535 )
 z_index = -1
 texture = ExtResource( 3 )
 
@@ -37,25 +37,25 @@ __meta__ = {
 }
 
 [node name="Vermelho" type="TouchScreenButton" parent="."]
-modulate = Color( 0.796078, 0.152941, 0.176471, 1 )
+modulate = Color( 0.929412, 0.196078, 0.215686, 1 )
 position = Vector2( 488.315, 489.633 )
 scale = Vector2( 0.129166, 0.121134 )
 normal = ExtResource( 2 )
 
 [node name="Azul" type="TouchScreenButton" parent="."]
-modulate = Color( 0.764706, 0.74902, 0.839216, 1 )
+modulate = Color( 0.615686, 0.596078, 0.792157, 1 )
 position = Vector2( 604.858, 488.444 )
 scale = Vector2( 0.129166, 0.121134 )
 normal = ExtResource( 2 )
 
 [node name="Roxo" type="TouchScreenButton" parent="."]
-modulate = Color( 0.619608, 0.298039, 0.627451, 1 )
+modulate = Color( 0.482353, 0.231373, 0.411765, 1 )
 position = Vector2( 724.968, 488.444 )
 scale = Vector2( 0.129166, 0.121134 )
 normal = ExtResource( 2 )
 
 [node name="Rosa" type="TouchScreenButton" parent="."]
-modulate = Color( 0.953125, 0.636658, 0.742147, 1 )
+modulate = Color( 0.945098, 0.501961, 0.698039, 1 )
 position = Vector2( 370.584, 490.822 )
 scale = Vector2( 0.129166, 0.121134 )
 normal = ExtResource( 2 )
@@ -74,9 +74,10 @@ __meta__ = {
 }
 
 [node name="Sprite2" type="Sprite" parent="."]
-position = Vector2( 286.938, 329.884 )
+position = Vector2( 239.744, 341.211 )
 scale = Vector2( 0.70504, 0.719787 )
 texture = ExtResource( 5 )
+
 [connection signal="pressed" from="Vermelho" to="." method="_on_Vermelho_pressed"]
 [connection signal="pressed" from="Azul" to="." method="_on_Erro_pressed"]
 [connection signal="pressed" from="Roxo" to="." method="_on_Erro_pressed"]
